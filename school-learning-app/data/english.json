@@ -1,1 +1,33 @@
+[
+  {
+    "question": "Which word is a noun?",
+    "options": ["Run", "Blue", "Happiness", "Quickly"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Choose the correct form: \"They ___ going to the park.\"",
+    "options": ["is", "are", "am", "be"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which is a synonym for \"big\"?",
+    "options": ["Tiny", "Huge", "Narrow", "Short"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which sentence is punctuated correctly?",
+    "options": [
+      "I like pizza, and burgers.",
+      "I like pizza and, burgers.",
+      "I like pizza and burgers.",
+      "I like, pizza and burgers."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is the opposite of \"early\"?",
+    "options": ["Soon", "Late", "Fast", "Slow"],
+    "answerIndex": 1
+  }
+]
 
