@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StudyVerse | Science</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body data-subject="science">
+  <div class="bg-glow"></div>
+
+  <header class="top-bar">
+    <div class="logo">Study<span>Verse</span></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="subject-math.html">Math</a>
+      <a class="active">Science</a>
+      <a href="subject-english.html">English</a>
+    </nav>
+    <div class="profile-pill">
+      <span id="levelLabel">Lv. 1</span>
+      <span id="xpLabel">0 XP</span>
+      <span id="streakLabel">🔥 0</span>
+    </div>
+  </header>
+
+  <main class="main-wrap">
+    <section class="subject-hero">
+      <div>
+        <h1>Science Quizzes</h1>
+        <p>Explore biology, physics, chemistry, and the world around you.</p>
+      </div>
+      <button class="btn-primary" id="startQuizBtn">Start Quiz</button>
+    </section>
+
+    <section class="quiz-section">
+      <div id="quizCard" class="quiz-card hidden">
+        <div class="quiz-header">
+          <span id="questionCounter"></span>
+          <span id="subjectLabel">Science</span>
+        </div>
+        <h2 id="questionText"></h2>
+        <div id="optionsContainer" class="options"></div>
+        <button class="btn-primary" id="nextQuestionBtn" disabled>Next</button>
+        <div id="feedback" class="feedback"></div>
+      </div>
+
+      <div id="quizResult" class="quiz-card hidden">
+        <h2>Quiz Complete!</h2>
+        <p id="resultText"></p>
+        <p id="xpEarnedText"></p>
+        <button class="btn-primary" id="retryQuizBtn">Try Again</button>
+        <a href="index.html" class="btn-secondary">Back Home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Science Mode • Stay curious 🔬</footer>
+</body>
+</html>
 
