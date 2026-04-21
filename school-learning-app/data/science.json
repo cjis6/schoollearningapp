@@ -1,1 +1,28 @@
+[
+  {
+    "question": "Water freezes at what temperature (°C)?",
+    "options": ["0°C", "10°C", "32°C", "100°C"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which gas do plants take in?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+    "answerIndex": 1
+  },
+  {
+    "question": "The Earth orbits around the…",
+    "options": ["Moon", "Sun", "Mars", "Galaxy center"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Humans mainly breathe using which organ?",
+    "options": ["Heart", "Lungs", "Stomach", "Liver"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What force pulls objects toward Earth?",
+    "options": ["Magnetism", "Friction", "Gravity", "Electricity"],
+    "answerIndex": 2
+  }
+]
 
