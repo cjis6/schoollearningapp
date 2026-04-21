@@ -1,1 +1,28 @@
+[
+  {
+    "question": "What is 7 × 8?",
+    "options": ["48", "54", "56", "64"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Solve: 15 + 27",
+    "options": ["32", "40", "42", "44"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What is 1/2 as a decimal?",
+    "options": ["0.2", "0.3", "0.4", "0.5"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Which is the largest?",
+    "options": ["0.09", "0.9", "0.19", "0.29"],
+    "answerIndex": 1
+  },
+  {
+    "question": "What is 9²?",
+    "options": ["18", "72", "81", "99"],
+    "answerIndex": 2
+  }
+]
 
