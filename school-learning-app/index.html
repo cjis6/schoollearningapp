@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StudyVerse | Learn School Subjects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="theme-default">
+  <div class="bg-glow"></div>
+
+  <header class="top-bar">
+    <div class="logo">Study<span>Verse</span></div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="subject-math.html">Math</a>
+      <a href="subject-science.html">Science</a>
+      <a href="subject-english.html">English</a>
+    </nav>
+    <div class="profile-pill">
+      <span id="levelLabel">Lv. 1</span>
+      <span id="xpLabel">0 XP</span>
+      <span id="streakLabel">🔥 0</span>
+    </div>
+  </header>
+
+  <main class="main-wrap">
+    <section class="hero">
+      <div>
+        <h1>Master Your Classes, One Quest at a Time.</h1>
+        <p>Pick a subject, complete lessons, earn XP, and keep your streak alive.</p>
+        <button class="btn-primary" onclick="scrollToSubjects()">Start Learning</button>
+      </div>
+      <div class="hero-card">
+        <h2>Your Progress</h2>
+        <div class="stat-row">
+          <span>Level</span><span id="levelValue">1</span>
+        </div>
+        <div class="stat-row">
+          <span>XP</span><span id="xpValue">0 / 100</span>
+        </div>
+        <div class="xp-bar">
+          <div id="xpFill"></div>
+        </div>
+        <div class="stat-row">
+          <span>Daily Streak</span><span id="streakValue">0 days</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="subjects" id="subjectsSection">
+      <h2>Choose a Subject</h2>
+      <div class="subject-grid">
+        <a href="subject-math.html" class="subject-card math">
+          <h3>Math</h3>
+          <p>Practice arithmetic, algebra, and problem solving.</p>
+          <span class="pill">Quizzes • Lessons</span>
+        </a>
+        <a href="subject-science.html" class="subject-card science">
+          <h3>Science</h3>
+          <p>Explore physics, biology, and the world around you.</p>
+          <span class="pill">Concepts • Examples</span>
+        </a>
+        <a href="subject-english.html" class="subject-card english">
+          <h3>English</h3>
+          <p>Improve reading, grammar, and vocabulary.</p>
+          <span class="pill">Reading • Practice</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Built with 💜 + 💚 on GitHub Pages</span>
+  </footer>
+</body>
+</html>
 
