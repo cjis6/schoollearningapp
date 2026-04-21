@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StudyVerse | Math</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="theme-default" data-subject="math">
+  <div class="bg-glow"></div>
+
+  <header class="top-bar">
+    <div class="logo">Study<span>Verse</span></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="subject-math.html" class="active">Math</a>
+      <a href="subject-science.html">Science</a>
+      <a href="subject-english.html">English</a>
+    </nav>
+    <div class="profile-pill">
+      <span id="levelLabel">Lv. 1</span>
+      <span id="xpLabel">0 XP</span>
+      <span id="streakLabel">🔥 0</span>
+    </div>
+  </header>
+
+  <main class="main-wrap">
+    <section class="subject-hero">
+      <div>
+        <h1>Math Quests</h1>
+        <p>Sharpen your skills with quick lessons and quizzes.</p>
+      </div>
+      <button class="btn-secondary" id="startQuizBtn">Start Quiz</button>
+    </section>
+
+    <section class="quiz-section" id="quizSection">
+      <div id="quizCard" class="quiz-card hidden">
+        <div class="quiz-header">
+          <span id="questionCounter">Question 1/5</span>
+          <span id="subjectLabel">Math</span>
+        </div>
+        <h2 id="questionText">Loading question...</h2>
+        <div id="optionsContainer" class="options"></div>
+        <button class="btn-primary" id="nextQuestionBtn" disabled>Next</button>
+        <div id="feedback" class="feedback"></div>
+      </div>
+
+      <div id="quizResult" class="quiz-card hidden">
+        <h2>Quiz Complete!</h2>
+        <p id="resultText"></p>
+        <p id="xpEarnedText"></p>
+        <button class="btn-primary" id="retryQuizBtn">Try Again</button>
+        <a href="index.html" class="btn-secondary">Back to Home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Math mode • Keep your streak alive 🔥</span>
+  </footer>
+</body>
+</html>
 
